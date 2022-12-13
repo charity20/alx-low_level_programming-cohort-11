@@ -7,6 +7,7 @@
 int main(void)
 {
 	char c;
+
 	c = 'a';
 
 	/* Enter your code here*/
