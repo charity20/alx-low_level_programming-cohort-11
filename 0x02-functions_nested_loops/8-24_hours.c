@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- *
- *
- *
+ * jack_bauer - check hours
+ * @H @M: takes in args
+ * Return: nothing
  */
 void jack_bauer(void)
 {
