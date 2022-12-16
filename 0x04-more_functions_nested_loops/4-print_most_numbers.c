@@ -5,22 +5,16 @@
   *
   * Description: Prints the numbers excluding 2 and 4
   *
-  * Return: The numbers since 0 up to 9
+  * Return: void
   */
 void print_most_numbers(void)
 {
-	int x = 0;
+	char x = 0;
 
-	for (; x <= 9; x++)
+	for (x >= '0'; x <= 9; x++)
 	{
-		if (x == 2 || x == 4)
-		{
-			continue;
-		}
-		else
-		{
-			_putchar(x + '0');
-		}
+		if (!(x == 2 || x == 4))
+			_putchar(x);
 	}
 
 	_putchar('\n');
